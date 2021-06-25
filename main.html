@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Stop Watch</title>
+        <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="time">00:00:00.000</div>
+            <div class="split-time">SPLIT TIME</div>
+            <div class="btns-container">
+                <button id="start-btn" class="btns start"><strong>Start</strong></button>
+                <button id="pause-btn" class="btns pause"><strong>Pause</strong></button>
+                <button id="split-btn" class="btns" disabled><strong>Split</strong></button>
+                <button id="reset-btn" class="btns" disabled><strong>Reset</strong></button>
+            </div>
+            <div id="log-table-cont" class="log-table-cont">
+                <table>
+                    <colgroup>
+                        <col class="col-width">
+                        <col>
+                        <col class="col-width">
+                    </colgroup>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
